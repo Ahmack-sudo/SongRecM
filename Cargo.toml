@@ -35,7 +35,7 @@ gettext-sys = { version = "0.19.9", features = ["gettext-system"] }
 gettext-rs = { version = "0.5.0" }
 tempfile = "3.2.0"
 # GUI deps
-gtk = "0.10.0"I
+gtk = "0.10.0"
 gdk = { version = "0.13.2", optional = true }
 gio = "0.10.0"
 percent-encoding = { version = "2.1.0", optional = true } # For percent-encoding contents in URLs
