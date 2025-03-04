@@ -13,7 +13,7 @@ pub fn gui_main(input_file: Option<&str>) -> Result<(), Box<dyn Error>> {
         main_window.set_default_size(800, 600);
 
         // Create an image widget to hold album art
-        let album_art = Image::from_file("path/to/your/album_art.jpg");
+        let album_art = Image::from_file("/homeu/user/SongRecM/Albumart/album_art.jpg");
 
         // Add the album art directly to the main window
         main_window.add(&album_art);
